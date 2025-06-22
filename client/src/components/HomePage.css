@@ -1,0 +1,111 @@
+.home-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.home-header h1 {
+  color: #333;
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.logout-button {
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logout-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(231, 76, 60, 0.3);
+}
+
+.home-content {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.user-info {
+  margin-bottom: 30px;
+}
+
+.user-info h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 10px;
+}
+
+.info-item {
+  background: #f8f9fa;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+  font-size: 16px;
+}
+
+.info-item strong {
+  color: #333;
+  margin-right: 10px;
+}
+
+.welcome-message {
+  background: #e8f4fd;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #3498db;
+}
+
+.welcome-message p {
+  color: #2c3e50;
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.welcome-message p:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .home-header {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .home-header h1 {
+    font-size: 24px;
+  }
+  
+  .home-content {
+    padding: 20px;
+  }
+} 
