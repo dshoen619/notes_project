@@ -1,4 +1,4 @@
-#!/Users/davidshoen/notes_project/server/venv/bin/python3.12
+#!/Users/davidshoen/Documents/notes_project/server/venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys
